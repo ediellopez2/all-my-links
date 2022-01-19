@@ -25,7 +25,7 @@ body {
 }
 
 .flex-container {
-    /* background-color: pink; */
+    margin: 4px 10px;
 }
 
 .ediel-img {
@@ -67,9 +67,9 @@ h1, h3, p {
     cursor: pointer;
 }
 
-.color1 { background-color: #002856 }
+.color1 { background-color:#071330 }
 
 .button:hover {
-    background: #fff;
-    color: #005487;
+    background: white;
+    color: #071330;
 }
