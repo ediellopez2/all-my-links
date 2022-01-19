@@ -18,10 +18,11 @@ body {
 }
 
 .flex-container-wrapper {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    /* background-color: aquamarine; */
+    display: flex;              /* establish flex container */
+    flex-direction: row;        /* make main axis vertical */
+    flex-wrap: wrap;
+    justify-content: center;    /* center items vertically, in this case */
+    align-items: center;        /* center items horizontally, in this case */
 }
 
 .flex-container {
@@ -65,6 +66,7 @@ h1, h3, p {
     font-size: 20px;
     margin: 4px 2px;
     cursor: pointer;
+    width: 240px;
 }
 
 .color1 { background-color:#071330 }
@@ -72,4 +74,11 @@ h1, h3, p {
 .button:hover {
     background: white;
     color: #071330;
+}
+@media screen and (max-width: 768px){
+    .flex-container-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+    }
 }
