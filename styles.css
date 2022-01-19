@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;}
+
+.vertical-shift-1 {
+    margin-top: 80px;
+}
+
+.vertical-shift-2 {
+    margin-top: 20px;
+}
+
+body {
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.flex-container-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    /* background-color: aquamarine; */
+}
+
+.flex-container {
+    /* background-color: pink; */
+}
+
+.ediel-img {
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.icons-img {
+    width: 40px;
+    height: auto;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+.icons-img-header {
+    width: 24px;
+    height: auto;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+h1, h3, p {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+.button {
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.color1 { background-color: #002856 }
+
+.button:hover {
+    background: #fff;
+    color: #005487;
+}
