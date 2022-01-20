@@ -1,5 +1,6 @@
 # all-my-links
 One website that lists all of my personal links and websites.
+Link: https://www.ediellopez.com/all-my-links/
 
 # Inspiration
 1. https://allmylinks.com/
